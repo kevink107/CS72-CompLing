@@ -1,0 +1,13 @@
+print("First you'll see the expected output, and then the output of the student\n")
+
+print("01. Input:       aleH (\"I cook\")\n    Morphs:      al-eH / " + spellout("aleH", morphSymbols, morphFST) + "\n    Translation: cook-IPFV / " + spellout("aleH", translateSymbols, translateFST) + "\n")
+print("02. Input:       ali' (\"I cooked\")\n    Morphs:      al-i' / " + spellout("ali'", morphSymbols, morphFST) + "\n    Translation: cook-THEME.PFV.IMPROSP / " + spellout("ali'", translateSymbols, translateFST) + "\n")
+print("03. Input:       aloqFk (\"to cook\")\n    Morphs:      al-oqFk / " + spellout("aloqFk", morphSymbols, morphFST) + "\n    Translation: cook-INF / " + spellout("aloqFk", translateSymbols, translateFST) + "\n")
+print("04. Input:       aloqF (\"Cook!\")\n    Morphs:      al-oqF / " + spellout("aloqF", morphSymbols, morphFST) + "\n    Translation: cook-IMP / " + spellout("aloqF", translateSymbols, translateFST) + "\n")
+print("05. Input:       ala'kux (\"I want to cook\")\n    Morphs:      al-a'kux / " + spellout("ala'kux", morphSymbols, morphFST) + "\n    Translation: cook-DESIDERATIVE / " + spellout("ala'kux", translateSymbols, translateFST) + "\n")
+print("15. Input:       aliHr (\"It is being cooked\")\n    Morphs:      al-iHr / " + spellout("aliHr", morphSymbols, morphFST) + "\n    Translation: cook-THEME.MID.IPFV / " + spellout("aliHr", translateSymbols, translateFST) + "\n")
+print("16. Input:       aliHnex (\"It became cooked\")\n    Morphs:      al-iHn-ex / " + spellout("aliHnex", morphSymbols, morphFST) + "\n    Translation: cook-THEME.MID-PFV.IMPROSP / " + spellout("aliHnex", translateSymbols, translateFST) + "\n")
+print("17. Input:       aliHnuxk (\"to be cooked\")\n    Morphs:      al-iHn-uxk / " + spellout("aliHnuxk", morphSymbols, morphFST) + "\n    Translation: cook-THEME.MID-INF / " + spellout("aliHnuxk", translateSymbols, translateFST) + "\n")
+
+print("03. Input:       tsakoqFk (\"to pop (a bubble), to puncture an object\")\n    Morphs:      tsak-oqFk / " + spellout("tsakoqFk", morphSymbols, morphFST) + "\n    Translation: pop-INF / " + spellout("tsakoqFk", translateSymbols, translateFST) + "\n")
+print("03. Input:       bioqFk (\"to dig, to make a hole in the ground\")\n    Morphs:      bi-oqFk / " + spellout("bioqFk", morphSymbols, morphFST) + "\n    Translation: dig-INF / " + spellout("bioqFk", translateSymbols, translateFST) + "\n")
